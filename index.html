@@ -20,10 +20,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul>
 
-    <li><a class="nav-item" class="nav-link" href="#acceuil"> Acceuil</a></li>
-    <li><a class="nav-item"class="nav-link" href="#apropos"> A propos</a></li>
-    <li><a class="nav-item" class="nav-link" href="#services"> Services</a></li>
-    <li><a class="nav-item" class="nav-link" href="#conctact"> Contact</a></li>
+    <li><a class="nav-item" class="nav-link" href="#acceuil">Acceuil</a></li>
+    <li><a class="nav-item"class="nav-link" href="#apropos">A propos</a></li>
+    <li><a class="nav-item" class="nav-link" href="#services">Services</a></li>
+    <li><a class="nav-item" class="nav-link" href="#contact">Contact</a></li>
   </ul>
       </div>
     </div>
@@ -45,7 +45,7 @@
 
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt reprehenderit hic eligendi assumenda quos animi consequatur tenetur atque nam. Quos aspernatur placeat fuga excepturi veritatis eos eveniet nemo magni facere.</p>
   <img class="img-fluid" src="images/about.jpg" alt="Cordonnier">
-  [=== img ===]
+  
   <h2 id="services">Nos services</h2>
 
   <div class="card" >
@@ -70,23 +70,35 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
          
         </div>
-
-  Contactez-nous
-  [=== form ===]
-      Votre nom et prénom
-      [=== input ===]
-      Sujet
-      [=== select ===]
-          Choisissez un sujet
-          Demande de devis
-          Question
-          Autres
-      [=== /select ===]
-      Votre message
-      [=== textarea ===]
-      [=== button submit ===]
-  [=== /form ===]
-  [=== Google Map ===]
+        
+<form>
+    <fieldset enabled>
+      <h2 id="contact">Contactez-nous</h2>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Votre nom et prénom</label>
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Nom, prénom">
+      </div>
+      <div class="mb-3">
+        <label for="disabledSelect" class="form-label">Sujet</label>
+        <select class="form-select" aria-label="Default select example">
+          <option>Choisissez un sujet</option>
+          <option>Demande de devis</option>
+          <option>Question</option>
+          <option>Autres</option>
+        </select>
+       
+       
+      </div>
+      <div class="mb-3">
+        
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </fieldset>
+  </form> 
+ <div class="container-fluid">
+    <div class="map-responsive">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.471913011703!2d4.365160676788506!3d50.85946265782977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c370c43d6195%3A0x94b0e4b9ad97de02!2sHaute%20%C3%89cole%20ISFSC!5e0!3m2!1sfr!2sbe!4v1697531514378!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
   &copy; SuperShoes 2020, tous droits résérvés
 
 
